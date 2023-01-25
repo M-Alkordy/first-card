@@ -1,0 +1,199 @@
+@font-face {
+    font-family: STC;
+    src: url(./STC.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #E7EAEF;
+}
+
+.background{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    transform: translateX(35%);
+    width: 57vw;
+    height: 170vh;
+    background-image: url('../img/background.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+nav{
+    max-width: 1233px;
+    width: 90.2635vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 4.8828vh auto;
+    margin-bottom: 0;
+}
+
+nav .title{
+    font-family: 'STC';
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 137px;
+    color: #16397A;
+}
+
+.card{
+    position: relative;
+    z-index: 1;
+    max-width: 1233px;
+    padding: 2.001vh 32px 14.3554vh 32px;
+    margin: 21.7773vh auto;
+    margin-bottom: 26.0742vh;
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+.card table{
+    width: 100%;
+}
+
+.card table tr{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.card th{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 100px;
+    border-bottom: 2px solid #5C5C5C;
+    margin-bottom: 16px;
+}
+
+.card th , .card td{
+    font-family: 'STC';
+    padding-right: 32px;
+}
+
+.card table td{
+    direction: rtl;
+    height: 79px;
+    border-bottom: 2px solid #A89C9D;
+    display: flex;
+    align-items: center;
+}
+
+.card .last td{
+    border-bottom: none;
+}
+
+.card th.note{
+    width: 34.9%;
+    border-top: 9px solid #2A189B;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 54px;
+}
+
+.card th.price{
+    width: 12.554%;
+    border-top: 9px solid #1E1C1C;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 54px;
+}
+
+.card th.size{
+    width: 8.8744%;
+    border-top: 9px solid #2EC028;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 54px;
+}
+
+.card th.location{
+    width: 20.0216%;
+    border-top: 9px solid #EF6060;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 54px;
+}
+
+.card th.kind{
+    width: 10.0649%;
+    border-top: 9px solid #550B0B;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 54px;
+}
+
+.card th.number{
+    width: 10.119%;
+    border-top: 9px solid #DE710C;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 54px;
+}
+
+.card td.note{
+    width: 34.9%;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 47px;
+    color: #5C5C5C;
+}
+
+.card td.price{
+    width: 12.554%;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 47px;
+    color: #5C5C5C;
+}
+
+.card td.size{
+    width: 8.8744%;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 47px;
+    color: #5C5C5C;
+}
+
+.card td.location{
+    width: 20.0216%;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 47px;
+    color: #5C5C5C;
+}
+
+.card td.kind{
+    width: 10.0649%;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 47px;
+    color: #5C5C5C;
+}
+
+.card td.number{
+    width: 10.119%;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 47px;
+    color: #5C5C5C;
+}
+
+footer{
+    max-width: 1233px;
+    margin: 0 auto;
+    margin-bottom: 89px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'STC';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 64px;
+}
